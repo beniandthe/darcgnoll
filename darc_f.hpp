@@ -52,8 +52,8 @@ class RaceType {
     string race_special;
 
   public:
-  RaceType(string new_name, int attack_change, int def_change, string new_race_special);
-  ~RaceType();
+    RaceType(string new_name, int attack_change, int def_change, string new_race_special);
+    ~RaceType();
 
 };
 
@@ -65,8 +65,8 @@ class Player: public RaceType {
     int xp;
   
   public:
-  Player(string new_name, int attack_change, int def_change, string new_race_special, string new_char_name, int up_xp, int new_level);
-  ~Player();
+    Player(string new_name, int attack_change, int def_change, string new_race_special, string new_char_name, int up_xp, int new_level);
+    ~Player();
 
 };
 
